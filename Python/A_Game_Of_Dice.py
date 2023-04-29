@@ -12,11 +12,11 @@ while True:
     print(f"{player2_name} rolled {player2_roll}!")
     
     if player1_roll > player2_roll:
-        print(f"{player1_name} wins!")
+        print(f"{player1_name} wins")
     elif player1_roll < player2_roll:
-        print(f"{player2_name} wins!")
+        print(f"{player2_name} wins")
     else:
-        print("It's a tie!")
+        print("It's a tie")
     play_again = input("\nDo you want to play again? (yes/no): ")
     if play_again.lower() != "yes":
         break
